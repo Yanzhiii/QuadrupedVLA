@@ -115,15 +115,7 @@ def save_odom_yaml(path: str, msg: Odometry) -> None:
 
     lines = []
     lines.append("header:")
-    lines.append("  stamp:")
-    lines.append(f"    sec: {sec}")
-    lines.append(f"    nanosec: {nsec}")
-    lines.append(f"  frame_id: {frame_id}")
-    lines.append(f"child_frame_id: {child_frame_id}")
-    lines.append("pose:")
-    lines.append("  pose:")
-    lines.append("    position:")
-    lines.append(f"      x: {px}")
+
     lines.append(f"      y: {py}")
     lines.append(f"      z: {pz}")
     lines.append("    orientation:")

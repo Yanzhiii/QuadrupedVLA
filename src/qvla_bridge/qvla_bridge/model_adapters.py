@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Model adapter layer (English comments)
+Model adapter layer
 """
 import requests
 import cv2

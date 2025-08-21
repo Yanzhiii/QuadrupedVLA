@@ -11,8 +11,6 @@ Instruction executed by `a8cheng/navila-llama3-8b-8f`:
 
 "walk straight along the corridor, turn left slowly at the green exit sign, continue walking along the corridor, making sure to go straight along the corridor, and stop 2 meter away from the shoes."
 
-Full video (MP4): `nav_success.MP4`
-
 ### Features
 - Subscribes: `/camera/image_raw` (sensor images), `/qvla/user_cmd` (natural language)
 - Publishes: `/cmd_vel` (velocity control)
