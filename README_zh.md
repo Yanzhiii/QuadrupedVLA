@@ -11,8 +11,6 @@
 
 “walk straight along the corridor, turn left slowly at the green exit sign, continue walking along the corridor, making sure to go straight along the corridor, and stop 2 meter away from the shoes.”
 
-完整视频（MP4）：`nav_success.MP4`
-
 ### 功能概览
 - 订阅：`/camera/image_raw`（传感器图像）、`/qvla/user_cmd`（自然语言指令）
 - 发布：`/cmd_vel`（速度控制）
