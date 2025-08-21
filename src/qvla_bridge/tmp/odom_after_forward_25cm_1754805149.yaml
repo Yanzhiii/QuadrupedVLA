@@ -1,0 +1,18 @@
+header:
+  stamp:
+    sec: 1754805149
+    nanosec: 690028904
+  frame_id: odom
+child_frame_id: base_link
+pose:
+  pose:
+    position:
+      x: -0.006801
+      y: -0.461784
+      z: 0.363076
+    orientation:
+      x: 0.002243
+      y: 0.035796
+      z: -0.320556
+      w: 0.94655
+---

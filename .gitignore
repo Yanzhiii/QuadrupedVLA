@@ -1,0 +1,29 @@
+# ROS 2 workspace artifacts
+build/
+install/
+log/
+debug_logs/
+tts_cache/
+
+# Editor/IDE
+.vscode/
+.idea/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Local data/logs
+*.log
+*.pkl
+
+# External dependencies to be pulled by users
+src/navila_repo_main/
+src/go2_ros2_sdk/
+src/openvla/
+
+# OS
+.DS_Store
+Thumbs.db
+
